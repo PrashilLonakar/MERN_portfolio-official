@@ -5,6 +5,7 @@ import Layout from '@/components/Layout';
 import AnimatedText from '@/components/AnimatedText';
 import Link from 'next/link';
 import { LinkArrow } from '@/components/Icons';
+import HireME from '@/components/HireME';
 
 export default function Home() {
     return (
@@ -53,6 +54,7 @@ export default function Home() {
                         </div>
                     </div>
                 </Layout>
+                <HireME />
             </main>
         </>
     );
