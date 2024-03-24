@@ -6,6 +6,7 @@ import AnimatedText from '@/components/AnimatedText';
 import Link from 'next/link';
 import { LinkArrow } from '@/components/Icons';
 import HireME from '@/components/HireME';
+import LightBulb from '../../public/images/svgs/miscellaneous_icons_1.svg';
 
 export default function Home() {
     return (
@@ -55,6 +56,9 @@ export default function Home() {
                     </div>
                 </Layout>
                 <HireME />
+                <div className="absolute right-8 bottom-8 inline-block w-24">
+                    <Image src={LightBulb} alt="Codebuck" className="w-full h-auto"></Image>
+                </div>
             </main>
         </>
     );
