@@ -39,7 +39,7 @@ const about = () => {
         <title>CodeBucks | About Page</title>
         <meta name="description" content="any description"></meta>
       </Head>
-      <main className="flex w-full flex-col items-center justify-center">
+      <main className="flex w-full flex-col items-center justify-center dark:text-light">
         <Layout className="pt-16">
           <AnimatedText
             text="Passion Fuels Purpose!"
@@ -85,7 +85,7 @@ const about = () => {
                 <span className="inline-block text-7xl font-bold">
                   <AnimatedNumbers value={50} />+
                 </span>
-                <h2 className="text-xl font-medium capitalize text-dark/75">
+                <h2 className="text-xl font-medium capitalize text-dark/75 dark:text-light/75">
                   satisfied clients
                 </h2>
               </div>
@@ -94,7 +94,7 @@ const about = () => {
                 <span className="inline-block text-7xl font-bold">
                   <AnimatedNumbers value={40} />+
                 </span>
-                <h2 className="text-xl font-medium capitalize text-dark/75">
+                <h2 className="text-xl font-medium capitalize text-dark/75 dark:text-light/75">
                   projects completed
                 </h2>
               </div>
@@ -103,7 +103,7 @@ const about = () => {
                 <span className="inline-block text-7xl font-bold">
                   <AnimatedNumbers value={4} />+
                 </span>
-                <h2 className="text-xl font-medium capitalize text-dark/75">
+                <h2 className="text-xl font-medium capitalize text-dark/75 dark:text-light/75">
                   years of experience
                 </h2>
               </div>

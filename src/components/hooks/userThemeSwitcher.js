@@ -20,6 +20,7 @@ const userThemeSwitcher = () => {
       } else {
         let check = mediaQuery.matches ? "dark" : "light";
         setMode(check);
+        window.localStorage.setItem("theme", check);
         if (check === "dark") {
           document.documentElement.classList.add("dark");
         } else {
@@ -27,7 +28,11 @@ const userThemeSwitcher = () => {
         }
       }
     };
+
+    handleChange();
+
     mediaQuery.addEventListener("change", handleChange);
+
     return () => mediaQuery.removeEventListener("change", handleChange);
   }, []);
 
