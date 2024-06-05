@@ -17,12 +17,12 @@ export default function Home() {
             </Head>
             <main className="flex items-center text-dark w-full min-h-screen dark:text-light">
                 <Layout className="pt-0 md:pt-16 sm:pt-8">
-                    <div className="flex items-center justify-between w-full">
-                        <div className="w-1/2">
+                    <div className="flex items-center justify-between w-full lg:flex-col">
+                        <div className="w-1/2 md:w-full">
                             <Image
                                 src={profilePic}
                                 alt="prashlons"
-                                className="w-full h-auto lg:hidden md:inline-block md:w-full"
+                                className="w-full h-auto lg:hidden md:inline-block sm:w-full xs:w-full"
                                 priority
                                 sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 50vw"
                             ></Image>
@@ -32,7 +32,7 @@ export default function Home() {
                                 text="Turning Vision Into Reality With Code And Design."
                                 className="!text-6xl !text-left mb-4 xl:!text-5xl lg:!text-center lg:!text-6xl md:!text-5xl sm:!text-3xl"
                             />
-                            <p className="my-4 text-base font-medium">
+                            <p className="my-4 text-base font-medium md:text-sm sm:text-xs">
                                 As a skilled full-stack developer, I am dedicated to turning ideas
                                 into innovative web applications. Explore my latest projects and
                                 articles, showcasing my expertise in React.js and web development.
@@ -41,7 +41,7 @@ export default function Home() {
                                 <Link
                                     href="dummy.pdf"
                                     target={'_blank'}
-                                    className="flex items-center bg-dark text-light p-2.5 px-6 rounded-lg text-lg font-semibold hover:bg-light hover:text-dark hover:border-dark border-2 border-solid border-transparent  dark:text-dark dark:bg-light hover:dark:text-dark hover:dark:border-light hover:dark:bg-dark hover:dark:text-light"
+                                    className="flex items-center bg-dark text-light p-2.5 px-6 rounded-lg text-lg font-semibold hover:bg-light hover:text-dark hover:border-dark border-2 border-solid border-transparent  dark:text-dark dark:bg-light hover:dark:text-dark hover:dark:border-light hover:dark:bg-dark hover:dark:text-light md:p-2 md:px-4 md:text-base"
                                     download={true}
                                 >
                                     Resume <LinkArrow className={'w-6 ml-1'} />
@@ -49,7 +49,7 @@ export default function Home() {
                                 <Link
                                     href="mailto: prashlons@gmail.com"
                                     target={'_blank'}
-                                    className="flex items-center ml-4 text-lg font-medium capitalize text-dark underline dark:text-light"
+                                    className="flex items-center ml-4 text-lg font-medium capitalize text-dark underline dark:text-light md:text-base"
                                 >
                                     Contact
                                 </Link>
@@ -58,7 +58,7 @@ export default function Home() {
                     </div>
                 </Layout>
                 <HireME />
-                <div className="absolute right-8 bottom-8 inline-block w-24">
+                <div className="absolute right-8 bottom-8 inline-block w-24 md:hidden">
                     <Image src={LightBulb} alt="Codebuck" className="w-full h-auto"></Image>
                 </div>
             </main>
