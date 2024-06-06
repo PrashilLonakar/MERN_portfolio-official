@@ -7,17 +7,12 @@ const userThemeSwitcher = () => {
     useEffect(() => {
         const mediaQuery = window.matchMedia(preferDarkQuery);
         const userPref = window.localStorage.getItem('theme');
-
-        console.log('mediaQuery', mediaQuery);
-        console.log('userPref', userPref);
         let i = 1;
         i++;
-        console.log(`i >>>>>`, i);
         const handleChange = () => {
             if (userPref) {
                 let check = userPref === 'dark' ? 'dark' : 'light';
                 setMode(check);
-                console.log('check >>>>>', check, mode);
                 if (check === 'dark') {
                     document.documentElement.classList.add('dark');
                 } else {
