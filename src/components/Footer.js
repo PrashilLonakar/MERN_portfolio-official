@@ -15,7 +15,7 @@ const Footer = () => {
                     </span>
                     by&nbsp;
                     <Link href="/" className="underline underline-offset-2">
-                        CodeBucks
+                        Prashlons
                     </Link>
                 </div>
                 <Link className="underline underline-offset-2" href="/" target={'_blank'}>

@@ -98,7 +98,7 @@ const projects = () => {
     return (
         <>
             <Head>
-                <title>CodeBucks | Projects Page</title>
+                <title>Prashlons | Projects Page</title>
                 <meta name="description" content="any description"></meta>
             </Head>
             <TransitionEffect />
