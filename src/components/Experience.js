@@ -8,7 +8,7 @@ const Details = ({ position, company, companyLink, time, address, work }) => {
     return (
         <li
             ref={ref}
-            className="my-8 first:mt-0 last:mb-0 w-[60%] mx-auto flex flex-col items-center justify-between md:w-[80%]"
+            className="my-8 first:mt-0 last:mb-0 w-[60%] mx-auto flex flex-col items-left justify-between md:w-[80%]"
         >
             <LiIcon reference={ref} />
             <motion.div
@@ -54,16 +54,23 @@ const Experience = () => {
                     <Details
                         position="Senior Software Engineer"
                         company="Orangebits"
-                        time="2022-Present"
+                        time="Summer 2023 - Present"
                         address="Nagpur, Maharastra."
                         work="Worked and leaded on a team, responsible for developing new application for orangebits client. Ensure seamless communication between client-side and server-side with provided bugless, better efficiency and high quality products."
                     />
                     <Details
                         position="Software Engineer"
                         company="Orangebits"
-                        time="Summer 2019-2022"
+                        time="Winter 2020 - summer 2023"
                         address="Nagpur, Maharastra."
                         work="Develop user interfaces using Angular or React. Implement client-side logic for interactive web applications, Design and develop RESTful APIs using Express.js. Write server-side logic to handle business processes and Ensure data security and integrity"
+                    />
+                    <Details
+                        position="Junior Software Engineer"
+                        company="Orangebits"
+                        time="Summer 2019 - winter 2020"
+                        address="Nagpur, Maharastra."
+                        work="Design and Develop user interfaces using Angular, Html, Css, Typescript. Create reausable components, Integrate Api's using express.js & hapi.js and consume Api's in the application using Angular."
                     />
                 </ul>
             </div>

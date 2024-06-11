@@ -45,19 +45,19 @@ const Education = () => {
                 />
                 <ul className="w-full flex flex-col items-start justify-between ml-4 xs:ml-2 ">
                     <Details
-                        type="Bachelor Of Engineerin In Electronics and Telecommunication Engineering"
+                        type="Bachelor Of Engineering (B.E)"
                         time="2012-2017"
-                        place="Priyadarshini College of Engoneering (PCE)"
-                        info="Relevant courses included learn Basics of Electronics and Analog Electronic Circuits, Control Systems, Analog Communications, Digital Signal Processing."
+                        place="Priyadarshini Bhagwati College of Engoneering (PBCOE)"
+                        info="Completed B.E in Electronics and Telecommunication Engineering"
                     />
                     <Details
-                        type="HSC/Intermediate and PUC Certificates in Science department."
+                        type="HSC/Intermediate in Science department. (Class 12th)"
                         time="2010-2012"
                         place="Nagpur University"
                         info="Completed a Higher Secondary School Certificate (HSC) and Intermediate (PUC)."
                     />
                     <Details
-                        type="HSC/Intermediate and PUC Certificates"
+                        type="Secondary School Certificate (Class 10th)"
                         time="2009-2010"
                         place="Nagpur University"
                         info="Completed a Secondary School Certificate (SSC)."

@@ -53,21 +53,27 @@ const about = () => {
                                 Biography
                             </h2>
                             <p className="font-medium">
-                                Hi, I'm Prashlons aka Prashil Lonakar, a web developer and UI/UX
-                                designer with a passion for creating beautiful, functional, and
-                                user-centered digital experiences. With 5 years of experience in the
-                                field. I am always looking for new and innovative ways to bring my
-                                clients' visions to life.
+                                Hi, &nbsp;
+                                <span className="text-primary dark:text-primaryDark">
+                                    I'm Prashlons aka Prashil Lonakar
+                                </span>
+                                , a Software Developer Engineer with 5 years of experience in
+                                designing, developing, building, unit-testing, optimizing effective
+                                web applications and Project Managements. Possesses expertise in
+                                efficient development processes by creating user-friendly,
+                                responsive UI and minimizing bug count by 40% within the last
+                                quarter.
                             </p>
                             <p className="font-medium my-4">
-                                I am dedicated to creating elegant and visually appealing user
-                                experiences that elevate complex workflows.I believe in solving
-                                problems and creating intuitive, enjoyable experiences for users.
+                                I am always looking for new and innovative ways to bring my client's
+                                visions to life and dedicated to creating elegant and visually
+                                appealing user experiences that elevate complex workflows.I believe
+                                in solving problems and creating intuitive, enjoyable experiences
+                                for users.
                             </p>
 
                             <p className="font-medium my-4">
-                                Whether I'm working on a website, web app, or other digital product,
-                                I bring my commitment to design excellence and user-centered
+                                I always bring my commitment to design excellence and user-centered
                                 thinking to every project I work on. I look forward to the
                                 opportunity to bring my skills and passion to your next project.
                             </p>
@@ -76,8 +82,8 @@ const about = () => {
                                 Currently I m working as a Web-Developer at &nbsp;
                                 <span className="text-primary dark:text-primaryDark">
                                     Orangebits software technology
-                                </span>{' '}
-                                helping them to build their creative and innovative web
+                                </span>
+                                &nbsp; helping them to build their creative and innovative web
                                 applications.
                             </p>
                         </div>

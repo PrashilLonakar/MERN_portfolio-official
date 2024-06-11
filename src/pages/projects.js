@@ -113,6 +113,14 @@ const projects = () => {
                         text="View My Work 👇"
                         className="mb-16 !text-6xl lg:!text-6xl sm:!text-6xl xs:text-4xl sm:mb-8"
                     ></AnimatedText>
+                    <p className="font-medium text-dark/75 dark:text-light/75 py-3">
+                        <span className="text-primary dark:text-primaryDark">[ Note:</span>&nbsp;
+                        This are my personal projects which I have work on, in my free time. you can
+                        check out my resume from home page which contain all the Client projects
+                        which i work on. Some of the client like Flipkart, Pfizer, Humanest,
+                        Haldiram etc. &nbsp;
+                        <span className="text-primary dark:text-primaryDark">]</span>
+                    </p>
                     <div className="grid grid-col-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0">
                         <div className="col-span-12">
                             <FeatureProject
