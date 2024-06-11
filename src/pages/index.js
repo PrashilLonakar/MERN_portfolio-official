@@ -52,7 +52,7 @@ export default function Home() {
                             </p> */}
                             <div className="flex items-center self-start mt-2 lg:self-center">
                                 <Link
-                                    href="Prashil.Lonakar_Resume_Web_Engineer.pdf"
+                                    href="Prashil_Lonakar_Resume_SDE-pdf.pdf"
                                     target={'_blank'}
                                     className="flex items-center bg-dark text-light p-2.5 px-6 rounded-lg text-lg font-semibold hover:bg-light hover:text-dark hover:border-dark border-2 border-solid border-transparent  dark:text-dark dark:bg-light hover:dark:text-dark hover:dark:border-light hover:dark:bg-dark hover:dark:text-light md:p-2 md:px-4 md:text-base"
                                     download={true}
