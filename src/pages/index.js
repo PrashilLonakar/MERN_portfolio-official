@@ -31,8 +31,6 @@ export default function Home() {
                         </div>
                         <div className="w-1/2 flex flex-col items-center self-center lg:w-full lg:text-center">
                             <AnimatedText
-                                // text="👋 Hi, I'm Prashil Lonakar."
-                                // className="!text-6xl !text-left mb-4 xl:!text-5xl lg:!text-center lg:!text-6xl md:!text-5xl sm:!text-3xl sm:mt-3"
                                 text="A Web Alchemist who love to Craft Digital Masterpieces with Code and Design."
                                 className="!text-5xl !text-left mb-4 xl:!text-5xl lg:!text-center lg:!text-5xl md:!text-5xl sm:!text-3xl sm:mt-3"
                             />
@@ -41,15 +39,6 @@ export default function Home() {
                                 applications. Dive into my latest projects, revealing the alchemy of
                                 web development expertise.
                             </p>
-                            {/* <p className="my-4 text-base font-medium md:text-sm sm:text-xs">
-                                I am dedicated to creating elegant and visually appealing user
-                                experiences that elevate complex workflows.
-                            </p>
-                            <p className="my-4 text-base font-medium md:text-sm sm:text-xs">
-                                Currently I m working as a Web-Developer at Orangebits software
-                                technology helping them to build their creative and innovative web
-                                applications.
-                            </p> */}
                             <div className="flex items-center self-start mt-2 lg:self-center">
                                 <Link
                                     href="Prashil.Lonakar_Resume_SDE.pdf"
