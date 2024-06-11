@@ -156,8 +156,6 @@ const projects = () => {
                             <FeatureProject
                                 title="Web-chatting Application"
                                 summary="A professional web-chatting website using Angular, Node.js and Socket.io. It has smooth chatting feature between users or groups/rooms (you can create room or group where 2 or more users can join to chat with each other and this chat only visible to group member only). It is mobile responsive."
-                                //     summary="A professional portfolio website using React JS, Framer-motion, and Styled-components. It has smooth
-                                //   page transitions, cool background effects, unique design and it is mobile responsive."
                                 link="https://github.com/PrashilLonakar/MEAN__Socket.io__Web-chatting-app"
                                 github="https://github.com/PrashilLonakar/MEAN__Socket.io__Web-chatting-app"
                                 type="Featured Project"
