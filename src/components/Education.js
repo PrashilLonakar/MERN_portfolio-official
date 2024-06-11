@@ -8,7 +8,7 @@ const Details = ({ type, time, place, info }) => {
     return (
         <li
             ref={ref}
-            className="my-8 first:mt-0 last:mb-0 w-[60%] mx-auto flex flex-col items-center justify-between md:w-[80%]"
+            className="my-8 first:mt-0 last:mb-0 w-[60%] mx-auto flex flex-col items-left justify-between md:w-[80%]"
         >
             <LiIcon reference={ref} />
             <motion.div
@@ -45,18 +45,22 @@ const Education = () => {
                 />
                 <ul className="w-full flex flex-col items-start justify-between ml-4 xs:ml-2 ">
                     <Details
-                        type="Bachelor Of Science In Computer Science"
-                        time="2016-2020"
-                        place="Massachusetts Institute Of Technology (MIT)"
-                        info="Relevant courses included Data Structures and Algorithms, Computer Systems Engineering, and Artificial 
-            Intelligence."
+                        type="Bachelor Of Engineerin In Electronics and Telecommunication Engineering"
+                        time="2012-2017"
+                        place="Priyadarshini College of Engoneering (PCE)"
+                        info="Relevant courses included learn Basics of Electronics and Analog Electronic Circuits, Control Systems, Analog Communications, Digital Signal Processing."
                     />
                     <Details
-                        type="Master Of Computer Science"
-                        time="2020-2022"
-                        place="Stanford University"
-                        info="Completed a master's project on deep learning, developing a new neural network architecture for natural 
-            language understanding."
+                        type="HSC/Intermediate and PUC Certificates in Science department."
+                        time="2010-2012"
+                        place="Nagpur University"
+                        info="Completed a Higher Secondary School Certificate (HSC) and Intermediate (PUC)."
+                    />
+                    <Details
+                        type="HSC/Intermediate and PUC Certificates"
+                        time="2009-2010"
+                        place="Nagpur University"
+                        info="Completed a Secondary School Certificate (SSC)."
                     />
                 </ul>
             </div>
