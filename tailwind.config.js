@@ -17,6 +17,10 @@ module.exports = {
                 primaryDark: '#58E6D9', // 80,230,217
                 totalDark: '#020202',
                 lameLight: '#e8e8e8',
+                nightSky: '#010B3F',
+                daySky: '#89BDE2',
+                sunnyYellow: '#FFE668',
+                moonWhite: '#F4F6F0',
             },
             animation: {
                 'spin-slow': 'spin 8s linear infinite',
