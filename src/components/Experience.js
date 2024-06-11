@@ -52,24 +52,18 @@ const Experience = () => {
                 />
                 <ul className="w-full flex flex-col items-start justify-between ml-4 xs:ml-2 ">
                     <Details
-                        position="Software Engineer"
-                        company="Google"
+                        position="Senior Software Engineer"
+                        company="Orangebits"
                         time="2022-Present"
-                        address="Mountain View, CA"
-                        work="
-          Worked on a team responsible for developing new features for Google's 
-          search engine, including improving the accuracy and relevance of search results and 
-          developing new tools for data analysis and visualization."
+                        address="Nagpur, Maharastra."
+                        work="Worked and leaded on a team, responsible for developing new application for orangebits client. Ensure seamless communication between client-side and server-side with provided bugless, better efficiency and high quality products."
                     />
                     <Details
-                        position="Intern"
-                        company="Facebook"
-                        time="Summer 2021"
-                        address="Menlo Park, CA."
-                        work="
-            Worked on a team responsible for developing a new mobile app feature that allowed users to create and 
-            share short-form video content, including designing and implementing a new user interface and developing 
-            the backend infrastructure to support the feature."
+                        position="Software Engineer"
+                        company="Orangebits"
+                        time="Summer 2019-2022"
+                        address="Nagpur, Maharastra."
+                        work="Develop user interfaces using Angular or React. Implement client-side logic for interactive web applications, Design and develop RESTful APIs using Express.js. Write server-side logic to handle business processes and Ensure data security and integrity"
                     />
                 </ul>
             </div>

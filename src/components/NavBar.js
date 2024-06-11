@@ -54,7 +54,7 @@ const NavBar = () => {
         setIsOpen(!isOpen);
     };
     return (
-        <header className="w-full px-32 py-8 font-medium flex items-center justify-between dark:text-light relative z-10 lg:px-16 md:p-12 sm:-8">
+        <header className="w-full px-32 py-8 font-medium flex items-center justify-between dark:text-light relative z-10 lg:px-16 md:p-12 sm:-8 ">
             <button
                 className="flex-col justify-center items-center hidden lg:flex"
                 onClick={handleClick}
@@ -84,7 +84,7 @@ const NavBar = () => {
                 </nav>
                 <nav className="flex items-center justify-center flex-wrap mt-2">
                     <motion.a
-                        href="https://twitter.com/"
+                        href="https://x.com/Prashlons"
                         target='{"_blank"}'
                         whileHover={{ y: -2 }}
                         whileTap={{ scale: 0.9 }}
@@ -93,7 +93,7 @@ const NavBar = () => {
                         <XIcon />
                     </motion.a>
                     <motion.a
-                        href="https://github.com/"
+                        href="https://github.com/PrashilLonakar"
                         target='{"_blank"}'
                         whileHover={{ y: -2 }}
                         whileTap={{ scale: 0.9 }}
@@ -102,7 +102,7 @@ const NavBar = () => {
                         <GithubIcon />
                     </motion.a>
                     <motion.a
-                        href="https://linkedin.com/"
+                        href="https://www.linkedin.com/in/prashil-lonakar-82b604130/"
                         target='{"_blank"}'
                         whileHover={{ y: -2 }}
                         whileTap={{ scale: 0.9 }}
@@ -111,7 +111,7 @@ const NavBar = () => {
                         <LinkedInIcon />
                     </motion.a>
                     <motion.a
-                        href="https://facebook.com/"
+                        href="https://www.facebook.com/prashil.lonkar"
                         target='{"_blank"}'
                         whileHover={{ y: -2 }}
                         whileTap={{ scale: 0.9 }}

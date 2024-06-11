@@ -31,17 +31,28 @@ export default function Home() {
                         </div>
                         <div className="w-1/2 flex flex-col items-center self-center lg:w-full lg:text-center">
                             <AnimatedText
-                                text="Turning Vision Into Reality With Code And Design."
-                                className="!text-6xl !text-left mb-4 xl:!text-5xl lg:!text-center lg:!text-6xl md:!text-5xl sm:!text-3xl"
+                                // text="👋 Hi, I'm Prashil Lonakar."
+                                // className="!text-6xl !text-left mb-4 xl:!text-5xl lg:!text-center lg:!text-6xl md:!text-5xl sm:!text-3xl sm:mt-3"
+                                text="A Web Alchemist who love to Craft Digital Masterpieces with Code and Design."
+                                className="!text-5xl !text-left mb-4 xl:!text-5xl lg:!text-center lg:!text-5xl md:!text-5xl sm:!text-3xl sm:mt-3"
                             />
                             <p className="my-4 text-base font-medium md:text-sm sm:text-xs">
-                                As a skilled full-stack developer, I am dedicated to turning ideas
-                                into innovative web applications. Explore my latest projects and
-                                articles, showcasing my expertise in React.js and web development.
+                                As a full-stack alchemist, I transmute ideas into innovative web
+                                applications. Dive into my latest projects, revealing the alchemy of
+                                web development expertise.
                             </p>
+                            {/* <p className="my-4 text-base font-medium md:text-sm sm:text-xs">
+                                I am dedicated to creating elegant and visually appealing user
+                                experiences that elevate complex workflows.
+                            </p>
+                            <p className="my-4 text-base font-medium md:text-sm sm:text-xs">
+                                Currently I m working as a Web-Developer at Orangebits software
+                                technology helping them to build their creative and innovative web
+                                applications.
+                            </p> */}
                             <div className="flex items-center self-start mt-2 lg:self-center">
                                 <Link
-                                    href="dummy.pdf"
+                                    href="Prashil.Lonakar_Resume_Web_Engineer.pdf"
                                     target={'_blank'}
                                     className="flex items-center bg-dark text-light p-2.5 px-6 rounded-lg text-lg font-semibold hover:bg-light hover:text-dark hover:border-dark border-2 border-solid border-transparent  dark:text-dark dark:bg-light hover:dark:text-dark hover:dark:border-light hover:dark:bg-dark hover:dark:text-light md:p-2 md:px-4 md:text-base"
                                     download={true}
@@ -49,7 +60,7 @@ export default function Home() {
                                     Resume <LinkArrow className={'w-6 ml-1'} />
                                 </Link>
                                 <Link
-                                    href="mailto: prashlons@gmail.com"
+                                    href="mailto:prashil.lonakar@gmail.com?subject=Refer%20from%20Portfolio&body=Hello,%20I%20would%20like%20to%20connect%20with%20you%20regarding%20your%20Job%20Application.%0D%0A%0D%0AThank%20you."
                                     target={'_blank'}
                                     className="flex items-center ml-4 text-lg font-medium capitalize text-dark underline dark:text-light md:text-base"
                                 >

@@ -36,8 +36,9 @@ function Skills() {
                 <Skill name="NodeJs" x="15vw" y="-12vw" />
                 <Skill name="NestJs" x="32vw" y="-5vw" />
                 <Skill name="Angular" x="0vw" y="-20vw" />
-                <Skill name="NextJs" x="25vw" y="18vw" />
-                <Skill name="ReactJs" x="18vw" y="18vw" />
+                <Skill name="Material" x="-15vw" y="-17vw" />
+                <Skill name="NextJs" x="27vw" y="13vw" />
+                <Skill name="ReactJs" x="20vw" y="7vw" />
                 <Skill name="Figma" x="-28vw" y="-8vw" />
                 <Skill name="Tailwind CSS" x="-10vw" y="18vw" />
             </div>
