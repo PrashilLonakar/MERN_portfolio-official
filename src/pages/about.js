@@ -55,7 +55,7 @@ const about = () => {
                             <p className="font-medium">
                                 Hi, &nbsp;
                                 <span className="text-primary dark:text-primaryDark">
-                                    I'm Prashlons aka Prashil Lonakar
+                                    I&apos;m Prashlons aka Prashil Lonakar
                                 </span>
                                 , a Software Developer Engineer with 5 years of experience in
                                 designing, developing, building, unit-testing, optimizing effective
@@ -65,11 +65,11 @@ const about = () => {
                                 quarter.
                             </p>
                             <p className="font-medium my-4">
-                                I am always looking for new and innovative ways to bring my client's
-                                visions to life and dedicated to creating elegant and visually
-                                appealing user experiences that elevate complex workflows.I believe
-                                in solving problems and creating intuitive, enjoyable experiences
-                                for users.
+                                I am always looking for new and innovative ways to bring my
+                                client&apos;s visions to life and dedicated to creating elegant and
+                                visually appealing user experiences that elevate complex workflows.I
+                                believe in solving problems and creating intuitive, enjoyable
+                                experiences for users.
                             </p>
 
                             <p className="font-medium my-4">
