@@ -53,7 +53,7 @@ const FeatureProject = ({ type, title, summary, img, link, github }) => {
                     <Link
                         href={link}
                         target="_blank"
-                        className="ml-4 rounded-lg bg-dark text-light dark:text-dark bg-light p-2 px-6 text-lg font-semibold sm:px-4 sm:text-base"
+                        className="ml-4 rounded-lg bg-dark text-light dark:text-dark dark:bg-light p-2 px-6 text-lg font-semibold sm:px-4 sm:text-base"
                     >
                         Visit Project
                     </Link>
@@ -126,7 +126,7 @@ const projects = () => {
                             <FeatureProject
                                 title="E-commerse Application"
                                 summary="A feature-rich E-commerse App using React, Material Ui. It shows products list and details with multiple categories and filter options. User can checkout there orders and pay using credit card."
-                                link="https://github.com/PrashilLonakar/mern__e-commerse-gadgets__frontend"
+                                link="https://ama-john-ecomm.netlify.app/"
                                 github="https://github.com/PrashilLonakar/mern__e-commerse-gadgets__frontend"
                                 type="Featured Project"
                                 img={featureProject1}
