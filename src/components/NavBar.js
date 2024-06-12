@@ -65,8 +65,8 @@ const NavBar = () => {
                     }`}
                 ></span>
                 <span
-                    className={`bg-dark dark:bg-light block transition-all duration-300 ease-out h-0.5 w-6 rounded-sm my-0.5 ${
-                        isOpen ? 'opacity-0' : 'opacity-100'
+                    className={`bg-dark dark:bg-light transition-all duration-300 ease-out h-0.5 w-6 rounded-sm ${
+                        isOpen ? 'hidden' : 'block my-0.5'
                     }`}
                 ></span>
                 <span
@@ -167,16 +167,16 @@ const NavBar = () => {
                     </nav>
                     <nav className="flex items-center justify-center flex-wrap ">
                         <motion.a
-                            href="https://twitter.com/"
+                            href="https://x.com/Prashlons"
                             target='{"_blank"}'
                             whileHover={{ y: -2 }}
                             whileTap={{ scale: 0.9 }}
                             className="mr-3"
                         >
-                            <XIcon />
+                            <XIcon className="!text-light dark:!text-dark" />
                         </motion.a>
                         <motion.a
-                            href="https://github.com/"
+                            href="https://github.com/PrashilLonakar"
                             target='{"_blank"}'
                             whileHover={{ y: -2 }}
                             whileTap={{ scale: 0.9 }}
@@ -185,7 +185,7 @@ const NavBar = () => {
                             <GithubIcon />
                         </motion.a>
                         <motion.a
-                            href="https://linkedin.com/"
+                            href="https://www.linkedin.com/in/prashil-lonakar-82b604130/"
                             target='{"_blank"}'
                             whileHover={{ y: -2 }}
                             whileTap={{ scale: 0.9 }}
@@ -194,7 +194,7 @@ const NavBar = () => {
                             <LinkedInIcon />
                         </motion.a>
                         <motion.a
-                            href="https://facebook.com/"
+                            href="https://www.facebook.com/prashil.lonkar"
                             target='{"_blank"}'
                             whileHover={{ y: -2 }}
                             whileTap={{ scale: 0.9 }}
@@ -206,13 +206,15 @@ const NavBar = () => {
                         <button
                             onClick={() => setMode(mode == 'light' ? 'dark' : 'light')}
                             className={`ml-3 flex items-center justify-center rounded-full p-1 ${
-                                mode == 'light' ? 'bg-dark text-light' : 'bg-light text-dark'
+                                mode == 'light'
+                                    ? 'bg-nightSky text-moonWhite'
+                                    : 'bg-daySky text-sunnyYellow'
                             }`}
                         >
                             {mode == 'dark' ? (
-                                <SunIcon className={'fill-dark'} />
-                            ) : (
                                 <MoonIcon className={'fill-dark'} />
+                            ) : (
+                                <SunIcon className={'fill-dark'} />
                             )}
                         </button>
                     </nav>
