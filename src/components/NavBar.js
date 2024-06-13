@@ -4,7 +4,7 @@ import Logo from './Logo';
 import { useRouter } from 'next/router';
 import { FacebookIcon, GithubIcon, LinkedInIcon, MoonIcon, SunIcon, XIcon } from './Icons';
 import { motion } from 'framer-motion';
-import userThemeSwitcher from './hooks/userThemeSwitcher';
+import useThemeSwitcher from './hooks/useThemeSwitcher';
 
 const CustomLink = ({ href, title, className = '' }) => {
     const router = useRouter();
@@ -47,7 +47,7 @@ const CustomMobileLink = ({ href, title, className = '', toggle }) => {
 };
 
 const NavBar = () => {
-    const [mode, setMode] = userThemeSwitcher();
+    const [mode, setMode] = useThemeSwitcher();
     const [isOpen, setIsOpen] = useState(false);
 
     const handleClick = () => {

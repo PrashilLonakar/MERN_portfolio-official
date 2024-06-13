@@ -6,7 +6,7 @@ const Footer = () => {
     return (
         <footer className="w-full font-medium text-lg dark:text-light sm:text-base">
             <Layout className="py-8 flex items-center justify-between lg:flex-col lg:py-6 p-32 !bg-lameLight dark:!bg-totalDark">
-                <div className="">Let's connect!</div>
+                <div className="">Let&apos;s connect!</div>
                 <div className="flex items-center lg:py-2">
                     {' '}
                     <span className="text-primary text-2xl px-1 dark:text-primaryDark"> ✉</span>

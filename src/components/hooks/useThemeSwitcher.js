@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 
-const userThemeSwitcher = () => {
+const useThemeSwitcher = () => {
     const preferDarkQuery = '( prefers-color-scheme: dark )';
     const [mode, setMode] = useState('');
 
@@ -50,4 +50,4 @@ const userThemeSwitcher = () => {
     return [mode, setMode];
 };
 
-export default userThemeSwitcher;
+export default useThemeSwitcher;
