@@ -54,7 +54,7 @@ const NavBar = () => {
         setIsOpen(!isOpen);
     };
     return (
-        <header className="w-full px-32 py-8 font-medium flex items-center justify-between dark:text-light relative z-10 lg:px-16 md:p-12 sm:-8 ">
+        <header className="w-full px-32 py-8 font-medium flex items-center justify-between dark:text-light relative z-10 lg:px-16 md:p-12 sm:px-8 sm:py-[2.75rem]">
             <button
                 className="flex-col justify-center items-center hidden lg:flex"
                 onClick={handleClick}
@@ -129,9 +129,13 @@ const NavBar = () => {
                         }`}
                     >
                         {mode == 'dark' ? (
-                            <MoonIcon className={'fill-dark'} />
+                            <MoonIcon
+                                hieght={'1.25rem'}
+                                width={'1.25rem'}
+                                className={'fill-dark'}
+                            />
                         ) : (
-                            <SunIcon className={'fill-dark'} />
+                            <SunIcon hieght={'1.25rem'} width={'1.25rem'} className={'fill-dark'} />
                         )}
                     </button>
                 </nav>
@@ -155,12 +159,6 @@ const NavBar = () => {
                         <CustomMobileLink
                             href="/projects"
                             title="Projects"
-                            className=""
-                            toggle={handleClick}
-                        />
-                        <CustomMobileLink
-                            href="/articles"
-                            title="Articles"
                             className=""
                             toggle={handleClick}
                         />
@@ -212,16 +210,24 @@ const NavBar = () => {
                             }`}
                         >
                             {mode == 'dark' ? (
-                                <MoonIcon className={'fill-dark'} />
+                                <MoonIcon
+                                    hieght={'1.2rem'}
+                                    width={'1.2rem'}
+                                    className={'fill-dark'}
+                                />
                             ) : (
-                                <SunIcon className={'fill-dark'} />
+                                <SunIcon
+                                    hieght={'1.2rem'}
+                                    width={'1.2rem'}
+                                    className={'fill-dark'}
+                                />
                             )}
                         </button>
                     </nav>
                 </motion.div>
             ) : null}
 
-            <div className="absolute left-[50%] top-2 translate-x[-50%]">
+            <div className="absolute left-[50%] top-2 translate-x-[-50%]">
                 <Logo />
             </div>
         </header>
